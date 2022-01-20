@@ -1,0 +1,144 @@
+/*-- Globales --*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor{
+    max-width: 150rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-- Utilidades --*/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*-- Header --*/ 
+.site-header{
+    background-color: #81D5D5;
+    height: 25%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    
+}
+
+.barra select{
+    background-color: white;
+    border-radius: 0  3rem  3rem 0;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    border: none;
+}
+
+
+/******** Paneles *********/
+
+.contacto{
+    font-style: italic;
+    font-size: 1rem;
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    left: 80rem ;
+}
+
+.iniciosesion{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.introduccion{
+    font-style: italic;
+    font-size: 2rem;
+    text-align:justify;
+    width: 20%;
+    position: relative;
+    left: 4rem;
+}
+
+.mision{
+    position: relative;
+    left: 20rem;
+}
+
+.primeracita{
+    position: relative;
+    left: 33rem;
+    bottom: 37rem;
+}
+
+form{
+	width:40%;
+    padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:#ccc;
+    text-align: center;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+form input[type="text"], form input[type="tel"],form input[type="email"] {
+	width:80%;
+	padding:3px 3px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	display:inline-block;
+}
+
+form select[name="menu"]{
+    width:60%;
+	padding:3px 3px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	display:inline-block;
+}
+
+
+form input[type="date"], form input[type="time"]{
+    width:30%;
+	padding:3px 3px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	display:inline-block;
+}
+
+form input[type="submit"], form input[type="reset"]{
+	width:30%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+} 
+
+/* --Footer-- */
+.footer-site{
+    background-color: #81D5D5;
+    padding: 1rem;
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+}
+
+
+

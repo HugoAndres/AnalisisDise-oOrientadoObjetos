@@ -1,0 +1,101 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+
+.contenedor{
+    max-width: 150rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -- utilidades --*/
+.seccion{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+/*-- Header --*/ 
+.site-header{
+    background-color: #81D5D5;
+    padding: 0 0 3rem 0;
+    height: 18%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user{
+    position: relative;
+}
+
+/*Cuerpo*/
+td,th{
+    text-align: center;
+    width: 20rem;
+}
+
+.datos2{
+    margin-top: 3rem;
+    border-style: solid;
+    border-width: 0.02rem;
+}
+.datos input{
+    width: 100%;
+    text-align: center;
+}
+
+.datos{
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.02rem;
+    margin-top: 5rem;
+}
+.datos3{
+    border-style: solid;
+    border-width: 0.02;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+}
+.d1,.d2,.d3,.d4,.d5,.d6{
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.d01,.d02,.d03,.d04{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.d001,.d002,.d003,.d004{
+    padding-left: 3rem;
+    padding-right:3rem;
+}
+.d004{
+    padding-top:5.3rem;
+}
+
+p{
+    font-size: large;
+}
+
+.botones{
+    padding-left: 1rem;
+}
+
+.footer-site{
+    position: absolute;
+    bottom: 0;
+    background-color: #81D5D5;
+    padding: 1rem;
+    height: 15%;
+    width: 100%;
+    margin: 0;
+}

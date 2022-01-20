@@ -1,0 +1,98 @@
+/*-- Globales --*/
+html{
+    font-size: 60%;
+    background-color: #66CCCC;
+}
+.contenedor{
+    max-width: 150rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*, *:before,*:after{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*-- Utilidades -- */
+.seccion{
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+/*-- Header --*/ 
+.site-header{
+    background-color: whitesmoke;
+    padding: 0 0 3rem 0;
+    height: 25%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.barra img{
+    width: 30rem;
+}
+
+/* --Footer-- */
+.footer-site{
+    background-color: #66CCCC;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+}
+
+/** --Main-- */
+main{
+    background-color: #66CCCC;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 2rem 10rem 2rem 10rem;
+    width: 50rem;
+    font-size: 2.8rem;
+    border-style: solid;
+    border-width: .2rem;
+    border-color: #707070;
+    border-radius: 2rem;
+}
+
+h1{
+color: #707070;
+font-size: 3rem;
+margin-bottom: 4rem;
+}
+
+p{
+    color: red;
+}
+
+.user{
+    background: url(../img/user.png) no-repeat;
+    background-position: 38rem 2rem;
+    padding-right: 30;
+}
+.pass{
+    background: url(../img/password.png) no-repeat;
+    background-position: 38rem 2rem;
+    padding-right: 30;
+}
+
+.campo{
+    padding: 2rem;
+    background-color:#D8D8D8;
+    margin: 3rem;
+    width: 40rem;
+}
+
+#boton{
+    padding: 2rem 8rem 2rem 8rem ;
+    background-color: #FC7DCE;
+    font-size: 2.7rem;
+    margin: 1rem 0 0;
+}

@@ -1,0 +1,138 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor{
+    max-width: 150rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -- utilidades --*/
+.seccion{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+/*-- Header --*/ 
+.site-header{
+    background-color: #81D5D5;
+    padding: 0 0 3rem 0;
+    height: 18%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.barra img{
+    width: 30rem;
+}
+.barra select{
+    background-color: white;
+    border-radius: 0  3rem  3rem 0;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    border: none;
+}
+.user{
+    position: relative;
+}
+.user img{
+    width: 8rem;
+    height: 8rem;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10rem;
+    left: -6.5rem;
+    top:-0.8rem;
+}
+
+/* -- Contenido -- */
+input{
+    margin-bottom: 1.3rem;
+}
+.seccion-dia{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-dia input{
+    border-style: none;
+    margin-bottom: 4rem;
+}
+.seccion-diagnostico{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+.diagnostico{
+    margin-top: 3rem;
+    font-size: 1.8rem;
+}
+.boton-guardar{
+    margin-top: 2rem;
+}
+.btn{
+    padding: 1.3rem;
+    width: 10rem;
+    font-size: 1.8rem;
+    background-color: #81D5D5;
+}
+.btn-return{
+    margin: 0  0 2rem 0;
+}
+.btn-return a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: navy;
+}
+.funciones{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 120rem;
+}
+p{
+    font-size: 2rem;
+    padding: 2rem 0 2rem 0;
+}
+.funciones a{
+    border-style: solid;
+    border-width: .02rem;
+    background-color: #81D5D5;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+textarea{
+    padding: 0.5rem;
+}
+#btn_Imprimir{
+    margin-left: 2rem;
+}
+.recuadro-receta{
+    margin-top: 5rem;
+}
+.recuadro-receta h2{
+    margin-bottom: 3rem;
+}
+.recuadro-receta a{
+    background-color: palevioletred;
+    border-style: solid;
+    border-width: 0.02rem;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,313 @@
+/*-- Globales --*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor{
+    max-width: 150rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px 15px 15px;
+}
+/*-- Header --*/ 
+.site-header{
+    background-color: #81D5D5;
+    padding: 0 0 3rem 0;
+    height: 25%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.barra img{
+    width: 30rem;
+}
+.barra select{
+    background-color: white;
+    border-radius: 0  3rem  3rem 0;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    border: none;
+}
+.user{
+    position: relative;
+}
+.user img{
+    width: 8rem;
+    height: 8rem;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10rem;
+    left: -6.5rem;
+    top:-0.8rem;
+}
+
+/******** Paneles *********/
+
+
+
+.medicamento{
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  height: 50rem;
+}
+
+.listaVenta{
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  position: relative;
+    top: 5rem;
+}
+
+.listaVenta p{
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+.busqueda{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    top: 6px;
+}
+
+.etiquetas{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.imagen{
+    background-color: grey;
+    width: 20rem;
+    text-align: center;
+    opacity: .5;    
+}
+
+.codigo{
+    background-color: grey;
+    width: 20rem;
+    text-align: center;
+    opacity: .5;    
+}
+
+.nombre{
+    background-color: grey;
+    width: 20rem;
+    position: relative;
+    left: 25rem;
+    bottom:  32px;
+    text-align: center;
+    opacity: .5;
+}
+
+.fecha{
+    background-color: grey;
+    width: 20rem;
+    position: relative;
+    left: 50rem;
+    bottom:  64px;
+    text-align: center;
+    opacity: .5;
+}
+
+.via{
+    background-color: grey;
+    width: 20rem;
+     position: relative;
+    left: 75rem;
+    bottom:  97px;
+    text-align: center;
+    opacity: .5;
+}
+
+.precio{
+    background-color: grey;
+    width: 20rem;
+    position: relative;
+    left: 100rem;
+    bottom:  129px;
+    text-align: center;
+    opacity: .5;
+}
+
+.medAgotar{
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+    width: 120rem;
+    height: 14rem;
+    position: relative;
+    bottom: 12rem;
+    background-color: yellow;
+    opacity: .7;
+}
+
+.medDisponible{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    bottom: 10rem;
+    width: 120rem;
+    height: 14rem;
+    
+}
+
+.agregar{
+    position: relative;
+    left: 60rem;
+    bottom: 2rem;
+}
+
+.agregar1{
+    position: relative;
+    left: 121rem;
+    bottom: 20rem;
+    font-size: 15px;
+    
+}
+
+.nombremed{
+    position: relative;
+    left: 28rem;
+    bottom: 12rem;
+    font-size: 15px; 
+    width: 15rem;
+    text-align: center;
+}
+
+.fechamed{
+    position: relative;
+    left: 56rem;
+    bottom: 16rem;
+    font-size: 15px; 
+    width: 15rem;
+}
+
+.viamed{
+    position: relative;
+    left:78rem ;
+    bottom: 20rem;
+    font-size: 15px; 
+    width: 15rem;
+    text-align: center;
+}
+
+.preciomed{
+    position: relative;
+    left: 109rem;;
+    bottom: 24rem;
+    font-size: 15px; 
+    width: 15rem;
+}
+
+.codigomed{
+    position: relative;
+    left: 2rem;
+    top: 4rem;
+    font-size: 15px; 
+    width: 15rem;
+    text-align: center;
+}
+
+.mednombre{
+    position: relative;
+    left: 28rem;
+    
+    font-size: 15px; 
+    width: 15rem;
+    text-align: center;
+}
+
+.medfecha{
+    position: relative;
+    left: 56rem;
+    bottom: 4rem;
+    font-size: 15px; 
+    width: 15rem;
+}
+
+.medvia{
+    position: relative;
+    left:78rem ;
+    bottom: 8rem;
+    font-size: 15px; 
+    width: 15rem;
+    text-align: center;
+}
+
+.medprecio{
+    position: relative;
+    left: 109rem;;
+    bottom: 12rem;
+    font-size: 15px; 
+    width: 15rem;
+}
+
+.modificar{
+    position: relative;
+    left: 47rem;
+    top: 9rem;
+}
+
+.cancelar{
+    position: relative;
+    top: 5rem;
+    left: 100rem;
+    font-size: 15px;
+}
+
+.finalizar{
+    position: relative;
+    top: 12px;
+    left: 110rem;
+    font-size: 15px;
+}
+.tabla{
+    text-align: center;
+    overflow-y: scroll;
+}
+th{
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    border-style: solid;
+    padding: 1.5rem;
+    width: 25rem;
+}
+td{
+    font-size: 1.5rem;
+    border-bottom: solid;
+    border-width: .1rem;
+}
+a{
+    text-decoration: none;
+}
+input{
+    padding: 2rem;
+    font-size: 2rem;
+}
+/* --Footer-- */
+.footer-site{
+    background-color: #81D5D5;
+    padding: 2rem;
+    width: 100%;
+    margin: 0;
+    top: 70rem;
+}
